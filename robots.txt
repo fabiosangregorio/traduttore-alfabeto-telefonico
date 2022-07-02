@@ -3,4 +3,4 @@ User-agent: *
 Disallow:
 
 # Sitemap files
-Sitemap: https://fabio.sangregorio.dev/sitemap.xml
+# Sitemap: https://fabio.sangregorio.dev/sitemap.xml
