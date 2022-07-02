@@ -1,5 +1,3 @@
-const enModels = require("./src/models/models.en.js");
-const itModels = require("./src/models/models.it.js");
 const sass = require("node-sass");
 const imagemin = {
   mozjpeg: require('imagemin-mozjpeg'),
@@ -57,7 +55,7 @@ module.exports = function (grunt) {
           dest: 'dist/en',
           ext: '.html'
         }],
-        options: enModels
+        // options: enModels
       },
       it: {
         files: [{
@@ -67,7 +65,7 @@ module.exports = function (grunt) {
           dest: 'dist/it',
           ext: '.html'
         }],
-        options: itModels
+        // options: itModels
       }
     },
 
